@@ -9,8 +9,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" type="text/CSS" href="styling.css"> 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
+    <!-- CSS OWL CAROUSEL-->
     <title>Kampus Indonesia</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
   </head>
   <body>
     <nav data-aos="zoom-in" class="navbar navbar-expand-lg navbar-light" id="navigation">
@@ -105,7 +108,7 @@
         </div>
       </div>
     </div>
-
+    <a data-aos="fade-up"style="background-color: #8D818C; border-radius: 15px;width: 200px;border-color: #8D818C;margin-left: 60%;margin-top: 2%;"class="btn btn-primary" href="#" role="button">Universitas Lainnya</a>
 
     <h2 data-aos="zoom-in-down" data-aos-duration="1000" style="text-align: center;color: #403A40;margin-top: 5%;">Lokasi Kampus Terpopuler</h2>
     
@@ -117,7 +120,8 @@
               <img src="img/Jakarta.jpg"  alt="Jakarta" style="width:300px;height:150px;border-radius: 32px;">
             </div>
             <div class="flip-box-back">
-              <h2 style="margin-top: 19%;font-family: sansation-reg;">Jakarta</h2>
+              <a style="color: #403A40;" href="#"><h2 style="margin-top: 19%;font-family: sansation-reg;">Jakarta</h2>
+              </a>    
             </div>
           </div>
         </div>
@@ -129,7 +133,8 @@
               <img src="img/Bali.jpg" alt="Bali" style="width:300px;height:150px;border-radius: 32px;">
             </div>
             <div class="flip-box-back">
-              <h2 style="margin-top: 19%;font-family: sansation-reg;">Bali</h2>
+              <a style="color: #403A40;" href="#"><h2 style="margin-top: 19%;font-family: sansation-reg;">Bali</h2>
+                </a>
             </div>
           </div>
         </div>
@@ -141,7 +146,8 @@
               <img src="img/Bandung.jpg" alt="Bandung" style="width:300px;height:150px;border-radius: 32px;">
             </div>
             <div class="flip-box-back">
-              <h2 style="margin-top: 19%;font-family: sansation-reg;">Bandung</h2>
+              <a style="color: #403A40;" href="#"><h2 style="margin-top: 19%;font-family: sansation-reg;">Bandung</h2>
+                </a>
             </div>
           </div>
         </div>
@@ -156,7 +162,8 @@
               <img src="img/Bogor.jpg" alt="Bogor" style="width:300px;height:150px;border-radius: 32px;">
             </div>
             <div class="flip-box-back">
-              <h2 style="margin-top: 19%;font-family: sansation-reg;">Bogor</h2>
+              <a style="color: #403A40;" href="#"><h2 style="margin-top: 19%;font-family: sansation-reg;">Bogor</h2>
+                </a>
             </div>
           </div>
         </div>
@@ -168,7 +175,8 @@
               <img src="img/Malang.jpg" alt="Malang" style="width:300px;height:150px;border-radius: 32px;">
             </div>
             <div class="flip-box-back">
-              <h2 style="margin-top: 19%;font-family: sansation-reg;">Malang</h2>
+              <a style="color: #403A40;" href="#"><h2 style="margin-top: 19%;font-family: sansation-reg;">Malang</h2>
+                </a>
             </div>
           </div>
         </div>
@@ -180,7 +188,8 @@
               <img src="img/Surabaya.jpg" alt="Surabaya" style="width:300px;height:150px;border-radius: 32px;">
             </div>
             <div class="flip-box-back">
-              <h2 style="margin-top: 19%;font-family: sansation-reg;">Surabaya</h2>
+              <a style="color: #403A40;" href="#"><h2 style="margin-top: 19%;font-family: sansation-reg;">Surabaya</h2>
+                </a>
             </div>
           </div>
         </div>
@@ -196,12 +205,12 @@
     <div id="Fitur">
       <br>
       <br>
-      <h2 style="color: #403A40;">
+      <h2 data-aos="fade-down-right" style="color: #403A40;">
         Fitur Kampus Indonesia
       </h2>
       <div class="container-fitur">
         <div class="row">
-            <div class="col-md-4">
+            <div data-aos="zoom-in-right" class="col-md-4">
                 <div class="content"> <a href="#">
                         <div class="content-overlay"></div> <img id="imgfitur"class="content-image" src="img/UTBK.jpg">
                         <div class="content-details fadeIn-bottom">
@@ -209,7 +218,7 @@
                         </div>
                     </a> </div>
             </div>
-            <div class="col-md-4">
+            <div data-aos="zoom-out-down" class="col-md-4">
                 <div class="content"> <a href="#">
                         <div class="content-overlay"></div> <img id="imgfitur" class="content-image" src="img/Kuliah.jpg">
                         <div class="content-details fadeIn-bottom">
@@ -217,7 +226,7 @@
                         </div>
                     </a> </div>
             </div>
-            <div class="col-md-4">
+            <div data-aos="zoom-in-left" class="col-md-4">
                 <div class="content"> <a href="#">
                         <div class="content-overlay"></div> <img id="imgfitur" class="content-image" src="img/Beasiswa.jpg">
                         <div class="content-details fadeIn-bottom">
@@ -226,7 +235,7 @@
                     </a> </div>
             </div>
             <div style="margin-top: 2%;margin-left: 1%;"class="row">
-              <div class="col-md-4">
+              <div data-aos="zoom-in-right" class="col-md-4">
                   <div style="margin-left: 1%;" class="content"> <a href="#">
                           <div class="content-overlay"></div> <img id="imgfitur"class="content-image" src="img/Seminar.jpg">
                           <div class="content-details fadeIn-bottom">
@@ -234,7 +243,7 @@
                           </div>
                       </a> </div>
               </div>
-              <div class="col-md-4">
+              <div data-aos="zoom-out-up" class="col-md-4">
                   <div style="margin-left: 1%;" class="content"> <a href="#">
                           <div class="content-overlay"></div> <img id="imgfitur" class="content-image" src="img/Lomba.jpg">
                           <div class="content-details fadeIn-bottom">
@@ -242,7 +251,7 @@
                           </div>
                       </a> </div>
               </div>
-              <div class="col-md-4">
+              <div data-aos="zoom-in-left" class="col-md-4">
                   <div class="content"> <a href="#">
                           <div class="content-overlay"></div> <img id="imgfitur" class="content-image" src="img/Lowongan.jpg">
                           <div class="content-details fadeIn-bottom">
@@ -250,13 +259,218 @@
                           </div>
                       </a> </div>
               </div>
+            </div>
         </div>
+      </div>
+      <br>
+      <br>
+      <br>
     </div>
-      
+    <div class="custom-shape-divider-top-1623743331">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <rect x="1200" height="3.6"></rect>
+          <rect height="3.6"></rect>
+          <path d="M0,0V3.6H580.08c11,0,19.92,5.09,19.92,13.2,0-8.14,8.88-13.2,19.92-13.2H1200V0Z" class="shape-fill"></path>
+      </svg>
     </div>
 
+
+    <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="row" style="max-width: 80%; margin-left: 10%; margin-bottom: 5%;">
+      <div class="col-sm" style="max-width: 25%;">
+        <h1>INFORMASI MENGENAI SEMINAR</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p></p>
+        <a style="background-color: #8D818C; border-radius: 15px;width: 200px;border-color: #8D818C;"class="btn btn-primary" href="#" role="button">Selengkapnya</a>
+      </div>
+      <div class="col-sm" style="max-width: 75%;">
+        <div class="owl-carousel owl-theme">
+          <a href="#">
+          <div class="item">
+            <div class="card h-100">
+              <img src="img/bg_seminar.jpg" class="card-img-top" alt="UI" id="GambarSeminar">
+              <div class="card-body">
+                <h5 class="card-title">Judul Seminar 1</h5>
+                <p>Deskripsi Seminar Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+              </div>
+            </div>
+          </div>
+          </a>
+          <a href="#">
+          <div class="item">
+            <div class="card h-100">
+              <img src="img/bg_seminar.jpg" class="card-img-top" alt="UI" id="GambarSeminar">
+              <div class="card-body">
+                <h5 class="card-title">Judul Seminar 2</h5>
+                <p>Deskripsi Seminar Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+              </div>
+            </div>
+          </div>
+          </a>
+          <a href="#">
+          <div class="item">
+            <div class="card h-100">
+              <img src="img/bg_seminar.jpg" class="card-img-top" alt="UI" id="GambarSeminar">
+              <div class="card-body">
+                <h5 class="card-title">Judul Seminar 3</h5>
+                <p>Deskripsi Seminar Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+              </div>
+            </div>
+          </div>
+          </a>
+          <a href="#">
+          <div class="item">
+            <div class="card h-100">
+              <img src="img/bg_seminar.jpg" class="card-img-top" alt="UI" id="GambarSeminar">
+              <div class="card-body">
+                <h5 class="card-title">Judul Seminar 4</h5>
+                <p>Deskripsi Seminar Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+              </div>
+            </div>
+          </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div data-aos="fade-up"data-aos-anchor-placement="top-bottom" class="row" style="max-width: 80%; margin-left: 10%; margin-bottom: 20%;">
+      <div class="col-sm" style="max-width: 75%;">
+        <div class="owl-carousel owl-theme">
+          <a href="#">
+          <div class="item">
+            <div class="card h-100">
+              <img src="img/bg_beasiswa.jpg" class="card-img-top" alt="UI" id="GambarSeminar">
+              <div class="card-body">
+                <h5 class="card-title">Judul Beasiswa 1</h5>
+                <p>Deskripsi Beasiswa Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+              </div>
+            </div>
+          </div>
+          </a>
+          <a href="#">
+          <div class="item">
+            <div class="card h-100">
+              <img src="img/bg_beasiswa.jpg" class="card-img-top" alt="UI" id="GambarSeminar">
+              <div class="card-body">
+                <h5 class="card-title">Judul Beasiswa 2</h5>
+                <p>Deskripsi Beasiswa Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+              </div>
+            </div>
+          </div>
+          </a>
+          <a href="#">
+          <div class="item">
+            <div class="card h-100">
+              <img src="img/bg_beasiswa.jpg" class="card-img-top" alt="UI" id="GambarSeminar">
+              <div class="card-body">
+                <h5 class="card-title">Judul Beasiswa 3</h5>
+                <p>Deskripsi Beasiswa Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+              </div>
+            </div>
+          </div>
+          </a>
+          <a href="#">
+          <div class="item">
+            <div class="card h-100">
+              <img src="img/bg_beasiswa.jpg" class="card-img-top" alt="UI" id="GambarSeminar">
+              <div class="card-body">
+                <h5 class="card-title">Judul Beasiswa 4</h5>
+                <p>Deskripsi Beasiswa Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+              </div>
+            </div>
+          </div>
+          </a>
+        </div>
+      </div>
+      <div class="col-sm" style="max-width: 25%;">
+        <h1>INFORMASI MENGENAI BEASISWA</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p></p>
+        <a style="background-color: #8D818C; border-radius: 15px;width: 200px;border-color: #8D818C;"class="btn btn-primary" href="#" role="button">Selengkapnya</a>
+      </div>
+    </div>
+
+    <!--FOOTER-->
+    <div class="custom-shape-divider-bottom-1623759511">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M0,0V7.23C0,65.52,268.63,112.77,600,112.77S1200,65.52,1200,7.23V0Z" class="shape-fill"></path>
+      </svg>
+    </div>
+    <div style="background-color: #B4B8C5; color: #403A40;">
+      <br>
+      <br>
+      <div data-aos="fade-up"data-aos-anchor-placement="top-bottom" class="row" style="max-width: 80%; margin-left: 10%; margin-right: 10%;">
+        <div class="col">
+          <h1>Kampus<br>Indonesia</h1>
+          <p>Media penyedia informasi perkuliahan terfaktual, teraktual dan terpercaya</p>
+          <p><b>PT. Inspirasi Mandiri Nusantara</b><br>
+            Kec Lokawaru<br>
+            Kota Malang Jawa Timur</p>
+          <p><b>Telepon</b><br>
+            021- 3452 2885</p>
+          <p><b>E-Mali</b><br>
+            info@kampusindonesia.id</p>
+        </div>
+        <div class="col" style="margin-left: 5%;">
+          <h2 style="margin-top: 23%;">Perusahaan</h2>
+          <a href="#" style="color: #403A40;"><b>Tentang Kami</b></a><br>
+          <a href="#" style="color: #403A40;"><b>Hubungi Kami</b></a><br>
+          <a href="#" style="color: #403A40;"><b>Karir</b></a><br>
+          <a href="#" style="color: #403A40;"><b>Feed Back</b></a><br>
+          <a href="#" style="color: #403A40;"><b>Partner</b></a>
+        </div>
+        <div class="col" style="margin-left: 5%;">
+          <h2 style="margin-top: 23%;">Fitur</h2>
+          <a href="#" style="color: #403A40;"><b>Info Kampus</b></a><br>
+          <a href="#" style="color: #403A40;"><b>Seminar/Workshop</b></a><br>
+          <a href="#" style="color: #403A40;"><b>Beasiswa</b></a><br>
+          <a href="#" style="color: #403A40;"><b>Lomba</b></a><br>
+          <a href="#" style="color: #403A40;"><b>UTBK</b></a>
+        </div>
+        <div class="col" style="margin-left: 5%;">
+          <h2 style="margin-top: 23%;">Lainnya</h2>
+          <a href="#" style="color: #403A40;"><b>Blog</b></a><br>
+          <a href="#" style="color: #403A40;"><b>Bantuan</b></a>
+        </div>
+        <p style="text-align: center;">©2020-Kampus Indonesia</p>
+      </div>
+      
+    </div>
+    
+
+    <!--OWL JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript">
+    $('.owl-carousel').owlCarousel({
+      nav: true,
+      navText: [
+        "<i class='fa fa-caret-left'></i>",
+        "<i class='fa fa-caret-right'></i>"
+      ],
+      dots:false,
+      autoplay:true,
+      loop:true,
+      margin:10,
+      nav:true,
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:3
+          },
+          1000:{
+              items:3
+          }
+        }
+      })
+      
+    
+    </script>
+
+    <!--BOOTSTRAP JS-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+    <!--AOS JS-->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
       AOS.init();
