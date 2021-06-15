@@ -12,6 +12,11 @@ body{
     max-width: 100%;
 }
 
+a{
+  text-decoration: none;
+}
+
+/* CSS HEADER */
 #navigation{
     padding-left: 2%;
     padding-right: 5%;
@@ -29,7 +34,9 @@ body{
     font-family: sansation-reg;
     margin-top: 0;
 }
+/* END OF HEADER */
 
+/*INFO KAMPUS*/
 #info1{
     margin-top: 3%;
     margin-left: 22.5%;
@@ -40,7 +47,9 @@ body{
     font-family: sansation-reg;
     color: #403A40;
 }
+/*END OF INFO KAMPUS*/
 
+/*REKOMENDASI KAMPUS TERFAVORIT */
 #cardkampus{
     max-width: 50%;
     margin-left: 25%;
@@ -74,8 +83,10 @@ body{
 #GambarKampus{
   border-radius: 20px;
 }
+/* END OF REKOMENDASI KAMPUS TERFAVORIT */
 
 
+/* LOKASI KAMPUS TERPOPULER */
 #Lokasi{
     text-align: center;
     margin-top: 2%;
@@ -161,6 +172,9 @@ body{
     fill: #E9EBF8;
 }
 
+/* END OF LOKASI KAMPUS TERPOPULER */
+
+/* FITUR KAMPUS INDONESIA*/
 #Fitur{
   text-align: center;
   background-color: #E9EBF8;
@@ -261,3 +275,57 @@ body{
 .fadeIn-bottom {
   top: 80%
 }
+
+/*divider*/
+.custom-shape-divider-top-1623743331 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1623743331 svg {
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 200px;
+}
+
+.custom-shape-divider-top-1623743331 .shape-fill {
+  fill: #E9EBF8;
+}
+/* END OF FITUR KAMPUS INDONESIA */
+
+/* INFO SEMINAR */
+#GambarSeminar{
+  border-radius: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 50px;
+}
+
+/* END OF INFO SEMINAR*/
+
+/* FOOTER */
+.custom-shape-divider-bottom-1623759511 {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1623759511 svg {
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 50px;
+}
+
+.custom-shape-divider-bottom-1623759511 .shape-fill {
+  fill: #B4B8C5;
+}
+
+
+/* END OF FOOTER */
+
+
